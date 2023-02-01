@@ -10,4 +10,8 @@ class HomeController extends Controller
     public function index(Request $request){
         return view('pages.guest.home');
     }
+
+    public function aboutus(Request $request){
+        return view('pages.guest.aboutus');
+    }
 }
