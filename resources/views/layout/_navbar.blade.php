@@ -6,6 +6,9 @@
                     <a class="nav-link" href="{{ route('home') }}"><span>Beranda</span></a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="{{ route('question.list') }}"><span>Pertanyaan</span></a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="{{ route('aboutus') }}"><span>Tentang Kami</span></a>
                 </li>
             </ul>
