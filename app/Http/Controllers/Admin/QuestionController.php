@@ -85,6 +85,7 @@ class QuestionController extends Controller
     }
 
     public function destroy(Request $request, $id){
+        Polling::where(['question_id' => $id])->delete();
         Question::where(['id' => $id])->delete();
         return redirect(route('question.list'));
     }
